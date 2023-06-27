@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(59, 57, 57)
+}
+
+.post-container {
+    background-color: black;
+    width: 1000px;
+    height: 1250px;
+    margin: 50px auto;
+
+}
+
+.post {
+    background-color: white;
+    height: 950px;
+    width: 750px;
+    margin: 125px;
+    position: absolute;
+}
+
+.post-header,
+.icons {
+    display: flex;
+    margin: 0 5px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.post-body {
+    margin: 10px 15px 30px 15px;
+}
+
+i {
+    margin: 4px;
+    font-size: 30px;
+}
+.names{
+    display: flex;
+    justify-content: space-around;
+}
